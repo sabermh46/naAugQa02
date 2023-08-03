@@ -552,7 +552,6 @@ div.container {
 @media (max-width: 786px){
     .main {
         padding: 0px;
-        padding-bottom: 30px;
     }
     div.container {
         flex-direction: column;
@@ -567,6 +566,7 @@ div.container {
     }
     div.container .right {
         padding-right: 0px;
+        padding-bottom: 50px;
     }
     .left .title {
         padding-top: 10px;
