@@ -211,7 +211,8 @@ div.container {
     width: 300px;
     border-radius: 35px;
     height: 650px;
-    padding: 10px 5px;
+    padding: 10px 3px;
+    filter: drop-shadow(40px 30px 20px rgba(0, 0, 0, 0.526));
 }
 .theMobile .display {
     position: relative;
@@ -305,6 +306,7 @@ div.container {
     border-radius: 300px;
     left: 20px;
     top: -60%;
+    z-index: 1;
 }
 .card .floating-circle-filled {
     width: 30%;
@@ -320,23 +322,27 @@ div.container {
     text-transform: capitalize;
     font-weight: 600;
     font-size: 16px;
+    z-index: 12;
 }
 .card .card-number {
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 1px;
     color: #c0b6d2;
+    z-index: 12;
 }
 .card .amount {
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 1px;
+    z-index: 12;
 }
 .card .date {
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 1px;
     color: #c0b6d2;
+    z-index: 12;
 }
 
 .card-brand {
